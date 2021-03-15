@@ -4,8 +4,36 @@ body {
 
 h1, h2 , h3, h4 ,h5 ,h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Noto Sans TC', sans-serif;
+
 }
 
 .subheading {
 	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+
+h1, h2 , h3, h4 ,h5 ,h6, ..subheading {
+	text-transform: capitalize;
+}
+
+h1, .h1 {
+	font-size: 5rem;
+}
+
+	font-size: 1.2rem;
+}
+
+.bg-primary {
+	background-color: #0ce4eb!important;
+	background-image: url(../assets/img/axiom-pattern.png);
+/* This is mpstly intended for prototyping; please download the pattern and re-hoat for production environments. Thank you! */
+}
+
+.text-primary {
+	color: #0ce4eb!important;
+}
+
+a {
+	color: #0ce4eb;
 }
